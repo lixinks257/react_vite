@@ -21,4 +21,4 @@
 
 1. 安装@types/node,否则部分模块解析会报错
 2. 添加typings.d.ts 声明部分模块
-3. 1. react16.8版本之后，新增hooks,增强了函数式组件的功能（1.state（useState）  2.生命周期(useEffect) 3.ref(useRef)）
+3. react16.8版本之后，新增hooks,增强了函数式组件的功能（1.state（useState）  2.生命周期(useEffect) 3.ref(useRef)）
