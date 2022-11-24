@@ -20,9 +20,11 @@ export default defineConfig({
     preprocessorOptions: {
       // 引入antd样式
       less: {
+        // 允许JS去修改底层的less文件
         javascriptEnabled: true,
+        // 修改antd主题色
         modifyVars: {
-          '@primary-color': '#4377FE', //设置antd主题色
+          '@primary-color': 'orange', 
         },
       },
     },
